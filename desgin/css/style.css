@@ -43,7 +43,13 @@ html::-webkit-scrollbar-thumb{
 }
 
 body{
-   background-color: var(--light-bg);
+   background: rgb(131, 58, 180);
+  background: linear-gradient(
+    90deg,
+    rgba(131, 58, 180, 0.4206932773109243) 0%,
+    rgba(253, 29, 29, 0.41228991596638653) 50%,
+    rgba(255, 171, 167, 0.9136904761904762) 100%
+  );
    padding-left: 30rem;
 }
 
@@ -81,7 +87,7 @@ section{
 .delete-btn,
 .option-btn{
    border-radius: .5rem;
-   color:#fff;
+   color: black;
    font-size: 1.8rem;
    cursor: pointer;
    text-transform: capitalize;
@@ -105,7 +111,8 @@ section{
 
 .btn,
 .inline-btn{
-   background-color: var(--main-color);
+   background: rgb(131,58,180);
+background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(255,171,167,1) 100%);
 }
 
 .option-btn,
@@ -569,7 +576,7 @@ section{
 
 .courses .box-container .box .thumb img{
    width: 100%;
-   height: 20rem;
+   height: 24rem;
    object-fit: cover;
    border-radius: .5rem;
 }
@@ -1374,3 +1381,5 @@ section{
    }
 
 }
+
+

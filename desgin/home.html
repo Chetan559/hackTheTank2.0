@@ -5,15 +5,40 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>home</title>
-
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <!-- font awesome cdn link  -->
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
     />
-
+    
     <!-- custom css file link  -->
     <link rel="stylesheet" href="css/style.css" />
+    <style>
+    /* Footer styling */
+footer {
+  background-color: #333; /* Background color */
+  color: #fff; /* Text color */
+  padding: 20px; /* Padding inside the footer */
+  text-align: center; /* Align text to the center */
+  position: fixed; /* Fix the footer at the bottom of the viewport */
+  width: 100%; /* Full width */
+  bottom: 0; /* Align at the bottom */
+  z-index: 1000; /* Ensure the footer stays above other elements */
+}
+
+/* Footer link styling */
+footer a {
+  color: #fff; /* Link color */
+  text-decoration: none; /* Remove default underline */
+}
+
+/* Footer link hover effect */
+footer a:hover {
+  text-decoration: underline; /* Add underline on hover */
+}
+
+    </style>
   </head>
   <body>
     <div class="side-bar">
@@ -22,8 +47,8 @@
       </div>
 
       <div class="profile">
-        <img src="images/pic-1.jpg" class="image" alt="" />
-        <h3 class="name">suthar mahendra</h3>
+        <img src="images/p-2.jpg" class="image" alt="" />
+        <h3 class="name">Sneha Vaghela</h3>
         <p class="role">student</p>
         <a href="profile.html" class="btn">view profile</a>
       </div>
@@ -35,6 +60,7 @@
     <section class="courses">
       <h1 class="heading">our courses</h1>
 
+      <img src="images/logo.png" alt="logo" style="width: 25rem; height: auto; position: absolute; right: 10px; top: 20px;">
       <div class="box-container">
         <div class="box">
           <div class="tutor">
@@ -44,8 +70,8 @@
             </div>
           </div>
           <div class="thumb">
-            <img src="./images/bluse course.webp" alt="" />
-            <span>10 videos</span>
+            <img src="./images/bluse course.webp" alt="course-1" />
+            <span>6 videos</span>
           </div>
           <h3 class="title">Offline Blouse Mastery Program</h3>
           <a href="playlist.html" class="inline-btn">view playlist</a>
@@ -59,8 +85,8 @@
             </div>
           </div>
           <div class="thumb">
-            <img src="./images/full course.webp" alt="" />
-            <span>10 videos</span>
+            <img src="./images/full course.webp" alt="course-2" />
+            <span>6 videos</span>
           </div>
           <h3 class="title">Full Course</h3>
           <a href="playlist.html" class="inline-btn">view playlist</a>
@@ -74,15 +100,28 @@
             </div>
           </div>
           <div class="thumb">
-            <img src="./images/western course.webp" alt="" />
-            <span>10 videos</span>
+            <img src="./images/western course.webp" alt="course-3" />
+            <span>6 videos</span>
           </div>
           <h3 class="title">Western Course</h3>
           <a href="playlist.html" class="inline-btn">view playlist</a>
         </div>
-
-    </section>
-
+      </section>
+        <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+          <div class="col-md-4 d-flex align-items-center">
+            <a href="/" class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1">
+              <svg class="bi" width="30" height="24"><use xlink:href="#bootstrap"></use></svg>
+            </a>
+            <span class="mb-3 mb-md-0 text-body-secondary" ><p style="color: #fff; font-size: 16pt;" >©RajaraniCoaching. All Rights Reserved.</p></span>
+          </div>
+      
+          <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+            <li class="ms-3"><a class="text-body-secondary" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#twitter"></use></svg></a></li>
+            <li class="ms-3"><a class="text-body-secondary" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#instagram"></use></svg></a></li>
+            <li class="ms-3"><a class="text-body-secondary" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"></use></svg></a></li>
+          </ul>
+        </footer>
+   </section>
     
 
     <!-- custom js file link  -->
