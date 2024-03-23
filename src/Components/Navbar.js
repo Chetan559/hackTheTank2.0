@@ -17,16 +17,6 @@ function Navbar() {
     setNav(!nav);
   };
 
-  const handleChatBtnClick = () => {
-    if (!isButtonDisabled) {
-      toast.info("Experiencing high traffic, Please wait a moment.", {
-        position: toast.POSITION.TOP_CENTER,
-        onOpen: () => setIsButtonDisabled(true),
-        onClose: () => setIsButtonDisabled(false),
-      });
-    }
-  };
-
   return (
     <div className="navbar-section">
       <h1 className="navbar-title">
@@ -70,16 +60,20 @@ function Navbar() {
             Our Team
           </a>
         </li>
+        <li>
+          <a
+            href="http://127.0.0.1:5500/Chatbot/frontend/chatbot.html"
+            className="navbar-links"
+          >
+            Chatbot
+          </a>
+        </li>
       </ul>
-
-      <button
-        className="navbar-btn"
-        type="button"
-        disabled={isButtonDisabled}
-        onClick={handleChatBtnClick}
-      >
-        <FontAwesomeIcon icon={faCommentDots} /> Live Chat
-      </button>
+      <a href="http://127.0.0.1:5500/CommunityForum/templates/index.html">
+        <button className="navbar-btn" type="button">
+          <FontAwesomeIcon icon={faCommentDots} /> Live Chat
+        </button>
+      </a>
 
       {/* Mobile */}
       <div className={`mobile-navbar ${nav ? "open-nav" : ""}`}>
