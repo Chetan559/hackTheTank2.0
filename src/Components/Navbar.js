@@ -61,12 +61,12 @@ function Navbar() {
           </a>
         </li>
         <li>
-          <a href="#doctors" className="navbar-links">
+          <a href="#Footer" className="navbar-links">
             Contact Us
           </a>
         </li>
         <li>
-          <a href="#doctors" className="navbar-links">
+          <a href="#members" className="navbar-links">
             Our Team
           </a>
         </li>

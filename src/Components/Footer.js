@@ -21,6 +21,11 @@ function Footer() {
         <div className="ft-list">
           <ul className="ft-list-items">
             <li>
+              <a href="https://docs.google.com/forms/d/e/1FAIpQLSe7g8R_z0G7aBhw6Ea5I86TgqFrkALFYgqmli042CIfV6EmoA/viewform?usp=sf_link">
+                Get in Touch.
+              </a>
+            </li>
+            <li>
               <a href="#">
                 D Gate, FF, Pramukhchhaya Society, Yogi Chowk,
                 <br />

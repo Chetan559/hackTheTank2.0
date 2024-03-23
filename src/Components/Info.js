@@ -1,6 +1,6 @@
 import React from "react";
 import InformationCard from "./InformationCard";
-import { faScissors, faTape } from "@fortawesome/free-solid-svg-icons";
+import { faShirt, faScissors, faTape } from "@fortawesome/free-solid-svg-icons";
 import "../Styles/Info.css";
 
 function Info() {
@@ -45,7 +45,7 @@ function Info() {
         <InformationCard
           title="Trendsetting Workshops"
           description="Stay ahead of the fashion curve with our trend adaptation workshops. Learn how to incorporate current styles and designs into your creations, making them modern, relevant, and uniquely yours."
-          icon={faScissors}
+          icon={faShirt}
         />
       </div>
     </div>
