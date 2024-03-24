@@ -41,7 +41,10 @@ function Navbar() {
           </a>
         </li>
         <li>
-          <a href="#services" className="navbar-links">
+          <a
+            href="http://127.0.0.1:5500/desgin/home.html"
+            className="navbar-links"
+          >
             Courses
           </a>
         </li>
@@ -71,7 +74,7 @@ function Navbar() {
       </ul>
       <a href="http://127.0.0.1:5500/CommunityForum/templates/index.html">
         <button className="navbar-btn" type="button">
-          <FontAwesomeIcon icon={faCommentDots} /> Live Chat
+          <FontAwesomeIcon icon={faCommentDots} /> Community Forum
         </button>
       </a>
 

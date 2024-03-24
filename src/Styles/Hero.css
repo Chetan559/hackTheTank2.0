@@ -60,11 +60,40 @@
   cursor: pointer;
   transition: all 0.4s ease;
 }
+
+.live-classes-btn {
+  padding: 14px 20px;
+  color: white;
+  border: 2px solid transparent;
+  border-radius: 28px;
+  outline: transparent;
+  background-color: transparent;
+  font-size: 18px;
+  font-family: "Rubik", sans-serif;
+  letter-spacing: 0.8px;
+  cursor: pointer;
+  transition: all 0.4s ease;
+  margin-left: 20px;
+}
+
 .text-appointment-btn:hover {
   color: #030303;
   background-color: transparent;
   border: 1px solid #000000;
 }
+
+.live-classes-btn:hover {
+  color: #030303;
+  background: rgb(131, 58, 180);
+  background: linear-gradient(
+    90deg,
+    rgba(131, 58, 180, 0.4206932773109243) 0%,
+    rgba(253, 29, 29, 0.41228991596638653) 50%,
+    rgba(255, 171, 167, 0.9136904761904762) 100%
+  );
+  border: 1px solid #000000;
+}
+
 .text-stats {
   margin-top: 40px;
   display: flex;

@@ -41,13 +41,20 @@ function Hero() {
           <p className="text-descritpion">
             "Elevate Your Stitching Game with Unique & Trendy Styles"
           </p>
-          <button
-            className="text-appointment-btn"
-            type="button"
-            onClick={handleBookAppointmentClick}
-          >
-            <FontAwesomeIcon icon={faCalendarCheck} /> Start Sweing Now...
-          </button>
+          <a href="http://127.0.0.1:5500/desgin/home.html">
+            <button
+              className="text-appointment-btn"
+              type="button"
+              onClick={handleBookAppointmentClick}
+            >
+              <FontAwesomeIcon icon={faCalendarCheck} /> Start Sweing Now...
+            </button>
+          </a>
+          <a href="http://127.0.0.1:7000/">
+            <button className="live-classes-btn" type="button">
+              <FontAwesomeIcon icon={faCalendarCheck} /> Live Classes
+            </button>
+          </a>
         </div>
 
         <div className="hero-image-section">
