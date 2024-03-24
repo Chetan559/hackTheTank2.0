@@ -34,6 +34,7 @@
       "tag": "course_pricing",
       "patterns": [
         "What are the prices of the courses?",
+        "Tell me about the prices",
         "How much do the courses cost?",
         "Are there any discounts available?"
       ],
@@ -41,6 +42,26 @@
         "The price of our courses varies depending on the level and duration. Could you please specify which course you're interested in, so I can provide you with the accurate pricing details?",
         "Our course prices vary based on factors like level, duration, and any ongoing promotions. Please specify the course you're interested in for detailed pricing information."
       ]
+    },
+    {
+      "tag": "blouse_mastery_program",
+      "patterns": [
+        "Blouse Mastery Program",
+        "blouse-mastery-program",
+        "blouse-mastery-course",
+        "blouse-making-course"
+      ],
+      "responses": ["For this course price is X Rs."]
+    },
+    {
+      "tag": "full_course",
+      "patterns": ["Full Course", "full-course", "raja-rani full course"],
+      "responses": ["For this course price is Y Rs."]
+    },
+    {
+      "tag": "western_style",
+      "patterns": ["Western Style", "western-style"],
+      "responses": ["For this course price is Z Rs."]
     },
     {
       "tag": "course_duration",
@@ -148,6 +169,18 @@
       "responses": [
         "Occasional discounts and special promotions are available. Stay updated by following us on social media or subscribing to our newsletter.",
         "We regularly offer discounts and special promotions on our courses. Follow us on social media or subscribe to our newsletter to stay informed."
+      ]
+    },
+    {
+      "tag": "course_types",
+      "patterns": [
+        "What types of courses are available?",
+        "Tell me about the courses",
+        "What courses do you offer?"
+      ],
+      "responses": [
+        "Raja-Rani Coaching offers diverse sewing courses from basic stitching to advanced garment making. We also provide specialized workshops in katori blouse design, western wear, and kid's apparel.",
+        "Our courses cover a wide range, including basic stitching, advanced garment making, and specialized workshops like katori blouse design, western wear, and kid's apparel."
       ]
     }
   ]
